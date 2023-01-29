@@ -13,4 +13,24 @@ abstract class TextStyles {
         textStyle: TextStyle(color: AppColors.lightgray, fontSize: 14.0));
   }
 
+  static TextStyle get buttonTextLight {
+    return GoogleFonts.roboto(
+        textStyle: TextStyle(
+            color: Colors.white, fontSize: 17.0, fontWeight: FontWeight.bold));
+  }
+
+  static TextStyle get buttonTextDark {
+    return GoogleFonts.roboto(
+        textStyle: TextStyle(
+            color: AppColors.darkgray,
+            fontSize: 17.0,
+            fontWeight: FontWeight.bold));
+  }
+  static TextStyle get strawButton {
+    return GoogleFonts.roboto(
+        textStyle: TextStyle(
+            color: AppColors.straw,
+            fontSize: 17.0,
+            fontWeight: FontWeight.bold));
+  }
 }
